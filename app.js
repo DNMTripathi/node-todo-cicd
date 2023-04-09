@@ -25,7 +25,7 @@ let todolist = [];
 
 /* The to do list and the form are displayed */
 app.get('/todo', function (req, res) {
-        res.render('todo.js', {
+        res.render('todo.ejs', {
             todolist,
             clickHandler: "func1();"
         });
